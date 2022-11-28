@@ -1,0 +1,106 @@
+.primary-bg-color{
+    background-color: rgba(4, 13, 62, 0.87);
+}
+.secondary-bg-color{
+    background-color: #F2994A;
+}
+.custom-button-1{
+    border: 1px solid #F2994A;
+    background-color: transparent;
+}
+.text-orange{
+    color: #F2994A;
+}
+.phrase-1{
+    color: #99EFD0;
+    font-family: 'Inter', sans-serif;
+}
+.text-opacity-2{
+    opacity: 15%;
+}
+.text-opacity-1{
+    color: #8476AA;
+}
+.runner-skeleton:hover{
+
+}
+.your-choice{
+    background-image: url(/Group.png);
+    background-repeat: no-repeat;
+    background-size: 95rem;
+}
+.choice-division{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.7rem;
+}
+.way-purchase{
+    background-image: url(/Group\ 9.png);
+    background-repeat: no-repeat;
+    background-position-y: -4rem;
+    background-size: 19rem;
+}
+.simple-ways{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+.startup-framework{
+    background-image: url(/Frame\ \(6\).png);
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: 50rem;
+    background-position: center top;
+}
+.object-map{
+    background-image: url(/Object-map.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+.finding-info{
+    background-image: url(/Group\ 10.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.subscribe{
+    background-image: url(/Group1.png);
+    background-repeat: no-repeat;
+}
+.card-subscribe{
+    background-color:  rgba(4, 13, 62, 0.85);
+}
+.input-email{
+    background-color: rgba(4, 10, 55, 0.6);
+}
+.footer-img{
+    background-image: url(/Frame\ \(7\).png);
+}
+ul{
+    list-style: none;
+}
+.footer-links{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12rem;
+}
+.button-text{
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.start-reasons{
+    background-image: url(/Vector.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.reason-bg{
+    background-image: url(/Group\(1\).png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.increase-traffic{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
