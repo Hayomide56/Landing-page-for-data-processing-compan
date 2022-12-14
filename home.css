@@ -33,6 +33,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 0.7rem;
+    width: 80%;
 }
 .way-purchase{
     background-image: url(/assets/Group\ 9.png);
@@ -44,10 +45,11 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
+    text-align: center;
 }
 .startup-framework{
     background-image: url(/assets/Frame\ \(6\).png);
-    height: 70vh;
+    height: 40vh;
     background-repeat: no-repeat;
     background-size: 50rem;
     background-position: center top;
@@ -62,6 +64,7 @@
     background-image: url(/assets/Group\ 10.png);
     background-repeat: no-repeat;
     background-position: right;
+    margin-top: 5rem;
 }
 .subscribe{
     background-image: url(/assets/Group1.png);
@@ -69,12 +72,16 @@
 }
 .card-subscribe{
     background-color:  rgba(4, 13, 62, 0.85);
+    margin-top: 10rem; 
+    width: 65%;
+    padding: 3rem;
 }
 .input-email{
     background-color: rgba(4, 10, 55, 0.6);
 }
 .footer-img{
     background-image: url(/assets/Frame\ \(7\).png);
+    width: 85%;
 }
 ul{
     list-style: none;
@@ -85,6 +92,11 @@ ul{
     gap: 12rem;
 }
 .button-text{
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.button-text-1{
     font-family: 'Rubik', sans-serif;
     font-size: 12px;
     letter-spacing: 2px;
@@ -103,4 +115,435 @@ ul{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+}
+.start-reasons-text{
+    width: 40%;
+}
+.start-reasons-header{
+    font-size: 44px;
+}
+.start-reasons-para{
+    font-size: 18px; 
+    width: 75%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.start-reasons-vid{
+    height:60%; 
+    width: 100%;
+}
+.start-reasons-graph{
+    font-size: 16px;
+    width: 75%;
+}
+.start-reasons-anchor{
+    font-size: 14px;
+}
+.choice-section{
+    width: 75%;
+}
+.business-traffic{
+    width: 75%; 
+    margin-top: 5rem;
+    padding-top: 3rem; 
+}
+.increase-traffic-header{
+    margin-top: 3rem;
+    padding-top: 3rem;
+    width: 75%;
+}
+.business-traffic-img{
+    width: 90%;
+}
+.way-purchase-div{
+    width: 75%;
+}
+.way-purchase-text{
+    width: 75%;
+    font-size: 36px;
+}
+.way-purchase-para{
+    width: 50%;
+    margin-top: 5rem;
+    font-size: 15px;
+}
+.way-purchase-grid{
+    width: 75%;
+}
+.create-button{
+    margin-left: 35rem;
+}
+.finding-info-div{
+    width: 90%;
+}
+.invest-div{
+    width: 85%;
+}
+.invest-header{
+    width: 50%;
+}
+.invest-img{
+    margin-left: 5rem;
+    padding-left: 5rem;
+}
+.invest-para{
+    width: 65%;
+}
+.finding-info-text{
+    width: 75%;
+    margin-left: 2.5rem;
+    padding-left: 2.5rem;
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+}
+.find-info-para{
+    margin-top: 4rem;
+    width: 75%;
+}
+.find-info-display{
+    margin-top: 5rem;
+}
+.find-info-grid{
+    margin-left: 5rem;
+    padding-left: 3rem;
+}
+.card-subscribe-para{
+    width: 50%;
+}
+.card-subscribe-button{
+    width: 50%;
+}
+.button-reason{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.learn-button{
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.watch-preview{
+    margin-left: 3rem;
+}
+.watch-preview-1{
+    width: 40%;
+}
+.your-choice-icon{
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+.choice-section-header{
+    font-size: 42px;
+}
+.increase-traffic-para{
+    width: 75%;
+}
+.create-header{
+    width: 50%;
+}
+.footer-copy{
+    margin-right: 2.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .reason-bg{
+        background-size: 25rem;
+        background-position: top right;
+    }
+    .start-reasons{
+        background-size: 25rem;
+        background-position: right 3rem;
+    }
+    .start-reasons-text{
+        width: 51%;
+    }
+    .watch-preview-1{
+        width: 51%;
+    }
+    .start-reasons-header{
+        font-size: 30px;
+    }
+    .start-reasons-para{
+        font-size: 15px;
+        width: 90%;
+    }
+    .start-reasons-vid{
+        height: 70%;
+        width: 120%;
+    }
+    .start-reasons-graph{
+        font-size: 13px;
+        width: 85%;
+    }
+    .start-reasons-anchor{
+        font-size: 12px;
+    }
+    .your-choice-icons{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+    .your-choice{
+        background-size: 50rem;
+        background-position: center 8rem;
+    }
+    .choice-division{
+        width: 100%;
+    }
+    .choice-section{
+        width: 95%;
+    }
+    .business-traffic{
+        width: 95%;
+        margin-top: 0rem;
+        padding-top: 0rem;
+    }
+    .increase-traffic-header{
+        margin-top: 0rem;
+        padding-top: 3rem;
+        width: 95%;
+    }
+    .business-traffic-img{
+        width: 100%;
+    }
+    .way-purchase-div{
+        width: 100%;
+    }
+    .way-purchase-text{
+        width: 85%;
+    }
+    .way-purchase-para{
+        width: 75%;
+        margin-top: 1rem;
+    }
+    .way-purchase-grid{
+        width: 80%;
+    }
+    .simple-ways{
+        gap: 0rem;
+    }
+    .create-button{
+        margin-left: 20rem;
+    }
+    .finding-info{
+    }
+    .finding-info-div{
+        margin-top: 0rem;
+        padding-top: 0rem;
+        width: 95%;
+    }
+    .startup-framework{
+        height: 20rem;
+    }
+    .object-map{
+        margin-top: 3rem;
+    }
+    .invest-div{
+        width: 90%;
+    }
+    .invest-header{
+        width: 100%;
+    }
+    .invest-img{
+        margin-left: 0rem;
+        padding-left: 0rem;
+    }
+    .invest-para{
+        width: 100%;
+    }
+    .finding-info-text{
+        width: 100%;
+        margin-left: 0rem;
+        padding-left: 0rem;
+        margin-top: 0rem;
+        padding-top: 1rem;
+    }
+    .finding-info-img{
+        width: 100%;
+    }
+    .find-info-para{
+        margin-top: 0rem;
+    }
+    .find-info-display{
+        margin-top: 0rem;
+    }
+    .find-info-grid{
+        margin-left: 0rem;
+        padding-left: 2rem;
+    }
+    .card-subscribe{
+        margin-top: 5rem; 
+        width: 95%;
+    }
+    .card-subscribe-para{
+        width: 85%;
+    }
+    .card-subscribe-button{
+        width: 80%;
+    }
+    .footer-links{
+        gap: 4rem;
+    }
+    .footer-img{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .reason-bg{
+        background-size: 10rem;
+        background-position: top right;
+    }
+    .start-reasons{
+        background-size: 10rem;
+        background-position: right 3rem;
+    }
+    .start-reasons-text{
+        width: 60%;
+    }
+    .start-reasons-header{
+        font-size: 20px;
+    }
+    .start-reasons-para{
+        font-size: 10px;
+        width: 90%;
+        margin-top: 0rem;
+    }
+    .button-reason{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }    
+    .reasons-button{
+        display: flex;
+        width: 100%;
+    }
+    .learn-button{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .start-reasons-vid{
+        height: 50%;
+        width: 180%;
+    }
+    .start-reasons-graph{
+        font-size: 11px;
+        width: 100%;
+    }
+    .start-reasons-anchor{
+        font-size: 12px;
+    }
+    .watch-preview{
+        margin-left: 4.5rem;
+    }
+    .watch-preview-1{
+        width: 100%;
+    }
+    .your-choice-icons{
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        width: 50%;
+    }
+    .your-choice-icon{
+        margin-left: 1.5rem;
+        margin-right: .5rem;
+    }
+    .choice-section-header{
+        font-size: 25px;
+    }
+    .choice-division{
+        grid-template-columns: 1fr;
+        gap: 0.7rem;
+        width: 95%;
+    }
+    .your-choice{
+        background-size: 25rem;
+        background-position: center 15rem;
+        background-repeat:repeat-y ;
+        opacity: 50%;
+    }
+    .your-choice-display{
+        opacity: 100%;
+    }
+    .increase-traffic{
+        display: block;
+    }
+    .business-traffic-img{
+        margin-top: 2rem;
+    }
+    .increase-traffic-para{
+        width: 95%;
+    }
+    .increase-traffic-header{
+        width: 100%;
+    }
+    .way-purchase-text{
+        width: 95%;
+        font-size: 23px;
+    }
+    .way-purchase-para{
+        width: 90%;
+        margin-top: 1rem;
+        font-size: 15px;
+    }
+    .simple-ways{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        text-align:justify;
+        margin-left: 1rem;
+    }
+    .way-purchase-grid{
+        width: 90%;
+    }
+    .create-header{
+        width: 90%;
+    }
+    .create-button{
+        margin-left: 6rem;
+    }
+    .startup-framework{
+        height: 25vh;
+        background-size: 30rem;
+    }
+    .button-text{
+        margin-bottom: 2rem;
+    }
+    .invest-img{
+        height: 40%;
+        width: 100%;
+    }
+    .finding-info-img{
+        width: 90%;
+    }
+    .finding-info-text{
+        width: 90%;
+        margin-left: .5rem;
+        margin-top: 1rem;
+    }
+    .find-info-para{
+        width: 100%;
+    }
+    .find-info-grid{
+        margin-left: 0rem;
+        padding-left: 0rem;
+    }
+    .find-info-display{
+        margin-top: 2rem;
+    }
+    .card-subscribe{
+        width: 100%;
+        padding-left: .5rem;
+        padding-right: .5rem;
+    }
+    .card-subscribe-header{
+        width: 100%;
+    }
+    .card-subscribe-para{
+        width: 100%;
+    }
+    .footer-links{
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    .footer-copy{
+        margin-right: 1rem;
+    }
 }
